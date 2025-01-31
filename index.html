@@ -31,7 +31,7 @@
 <body class="font-sora">
     <!-- NavBar -->
     <header>
-        <nav class="bg-[#FFF9F4] flex items-center justify-between lg:justify-center px-4 py-2 lg:px-36 lg:py-6 ">
+        <nav class="bg-[#FFF9F4] border-b border-black lg:border-none flex items-center justify-between lg:justify-center px-4 py-2 lg:px-36 lg:py-6 ">
             <div class="flex items-center pr-80 gap-2">
                 <img src="c1-assets/logo-header.png" alt="">
                 <h1 class="text-2xl pt-3 hidden lg:block">Browse<span class="text-yellow-300">4</span>Pets</h1>
@@ -54,16 +54,53 @@
     </header>
     <main>
         <!-- Hero Section -->
-         <section class="mx-4 my-2 lg:mx-36 lg:px-11 lg:my-20">
-            <div class="absolute  z-10 lg:relative z-2 lg:z-10">
-                <h1 class="text-2xl mb-2 lg:text-6xl font-bold lg:mb-4">Pamper Your Pet,<br> Because They Deserve<br> the Bes</h1>
+         <section class="mx-4 my-2 lg:mx-36 lg:px-11 lg:my-20 ">
+            <div class="">
+                <div class="absolute z-10">
+                    <h1 class="text-2xl mb-2 lg:text-6xl font-bold lg:mb-4">Pamper Your Pet,<br> Because They Deserve<br> the Bes</h1>
                 <p class="text-sm w-80 mb-2 lg:w-auto lg:text-xl text-gray-400 lg:mb-4">Discover a world of treats, toys, and essentials handpicked for<br> your furry friends. Shop now and make tails wag with joy!</p>
                 <button class="btn btn-warning">Find a Pet</button>
-            </div>
-            <div class="relative top-20 lg:absolute lg:bottom-12 ">
-                <img src="c1-assets/cat-big.png" alt="">
+                </div>
+                <div class="relative top-10 lg:top-0">
+                    <img src="c1-assets/cat-big.png" alt="">
+                </div>
             </div>
          </section>
+         <!-- Categories -->
+          <h1 class="mt-20 lg:px-11 font-bold text-2xl lg:text-4xl mx-4 lg:mx-36">Browse by Categories</h1>
+          <section class=" gap-4 mx-4 lg:mx-36 my-4 lg:my-20 grid grid-cols-2 lg:grid-cols-6">
+
+            <div class="flex flex-col items-center py-10 bg-[#F9DF8A] w-45 h-62 rounded-xl">
+                <div class=" w-27 h-27 bg-white rounded-full last:py-5"><img class="w-13 h-13 px-3 py-3" src="c1-assets/dog-cartoon.png" alt=""></div>
+                <h1 class="py-2">Dog</h1>
+                <p class="py-2">3 items</p>
+            </div>
+            <div class="flex flex-col items-center py-10 bg-[#F9DF8A] w-45 h-62 rounded-xl">
+                <div class=" w-27 h-27 bg-white rounded-full last:py-5"><img class="w-13 h-13 px-3 py-3" src="c1-assets/fish-cartoon.png" alt=""></div>
+                <h1 class="py-2">Fish</h1>
+                <p class="py-2">3 items</p>
+            </div>
+            <div class="flex flex-col items-center py-10 bg-[#F9DF8A] w-45 h-62 rounded-xl">
+                <div class=" w-27 h-27 bg-white rounded-full last:py-5"><img class="w-13 h-13 px-3 py-3" src="c1-assets/cat-cartoon.png" alt=""></div>
+                <h1 class="py-2">Cat</h1>
+                <p class="py-2">3 items</p>
+            </div>
+            <div class="flex flex-col items-center py-10 bg-[#F9DF8A] w-45 h-62 rounded-xl">
+                <div class=" w-27 h-27 bg-white rounded-full last:py-5"><img class="w-13 h-13 px-3 py-3" src="c1-assets/bird-cartoon.png" alt=""></div>
+                <h1 class="py-2">Birds</h1>
+                <p class="py-2">3 items</p>
+            </div>
+            <div class="flex flex-col items-center py-10 bg-[#F9DF8A] w-45 h-62 rounded-xl">
+                <div class=" w-27 h-27 bg-white rounded-full last:py-5"><img class="w-13 h-13 px-3 py-3" src="c1-assets/mouse-cartoon.png" alt=""></div>
+                <h1 class="py-2">Small Pet</h1>
+                <p class="py-2">3 items</p>
+            </div>
+            <div class="flex flex-col items-center py-10 bg-[#F9DF8A] w-45 h-62 rounded-xl">
+                <div class=" w-27 h-27 bg-white rounded-full last:py-5"><img class="w-13 h-13 px-3 py-3" src="c1-assets/rabbit-cartoon.png" alt=""></div>
+                <h1 class="py-2">Cat</h1>
+                <p class="py-2">3 items</p>
+            </div>
+          </section>
     </main>
 </body>
 </html>
