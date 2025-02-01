@@ -55,11 +55,11 @@
     <main>
         <!-- Hero Section -->
          <section class="mx-4 my-2 lg:mx-36 lg:px-11 lg:my-20 ">
-            <div class="">
+            <div class="animate-floating">
                 <div class="absolute z-10">
                     <h1 class="text-2xl mb-2 lg:text-6xl font-bold lg:mb-4">Pamper Your Pet,<br> Because They Deserve<br> the Bes</h1>
                 <p class="text-sm w-80 mb-2 lg:w-auto lg:text-xl text-gray-400 lg:mb-4">Discover a world of treats, toys, and essentials handpicked for<br> your furry friends. Shop now and make tails wag with joy!</p>
-                <button class="btn btn-warning">Find a Pet</button>
+                <button class="animate-bounce btn btn-warning">Find a Pet</button>
                 </div>
                 <div class="relative top-10 lg:top-0">
                     <img src="c1-assets/cat-big.png" alt="">
@@ -240,11 +240,86 @@
                 </div>
             </div>
         </section>
+        <!-- Photo Gallery -->
+        <h1 class="mt-20 mb-5 lg:mb-20 lg:px-11 font-bold text-2xl lg:text-4xl mx-4 lg:mx-36">New Arrivals</h1>
+        <section class="flex flex-col lg:flex-row lg:justify-between lg:space-x-4 mx-4 lg:mx-36">
+            <div class="card bg-base-100 w-96 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="c1-assets/pet-food-1.jpeg"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Supreme Source Grain-Free Dog Food</h2>
+                  <p>A balanced and nutritious meal for your furry friend, packed with real chicken and vegetables.</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-base-100 w-96 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="c1-assets/pet-food-2.jpeg"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Cold Pressed Premium Dog Food
+                </h2>
+                  <p>High-quality cold-pressed dog food with essential nutrients to keep your pup healthy and active.</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card bg-base-100 w-96 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="c1-assets/pet-food-3.jpeg"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Natural Dry Dog Food</h2>
+                  <p>Made with natural ingredients, this wholesome dog food supports digestion and overall well-being.</p>
+                  <h1 class="font-bold text-xl lg:text-3xl">Arriving in</h1>
+                  <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
+                    <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:15;"></span>
+                      </span>
+                      days
+                    </div>
+                    <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:10;"></span>
+                      </span>
+                      hours
+                    </div>
+                    <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:24;"></span>
+                      </span>
+                      min
+                    </div>
+                    <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+                      <span class="countdown font-mono text-5xl">
+                        <span style="--value:40;"></span>
+                      </span>
+                      sec
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
 
         <!-- last part -->
          <section class="relative">
         <!-- newsletter -->
-         <section class="relative top-60 lg:top-64 p-4 w-4/5 lg:p-36 flex flex-col lg:flex-row bg-[#FFF9F4] mx-12 lg:mx-48 lg:space-x-36 lg:space-y-10 text-center items-center lg:text-left">
+         <section class="rounded-xl relative top-60 lg:top-64 p-4 w-4/5 lg:p-36 flex flex-col lg:flex-row bg-[#FFF9F4] mx-12 lg:mx-48 lg:space-x-36 lg:space-y-10 text-center items-center lg:text-left">
             <div class="w-64 ">
                 <img src="c1-assets/cute-pet-mid.png" alt="">
             </div>
